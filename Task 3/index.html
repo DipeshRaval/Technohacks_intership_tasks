@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="index.js" defer></script>
+</head>
+
+<body class="flex">
+	<h1 class="head">Calculator</h1>
+	<div class="">
+		<table id="calcu">
+			<tr>
+				<td colspan="3">
+					<input type="text" id="result">
+				</td>
+				<td><input type="button" onclick="clickHandler(event)" value="c"></td>
+			</tr>
+	
+			<tr>
+				<td><input type="button" onclick="clickHandler(event)" value="1"></td>
+				<td><input type="button" onclick="clickHandler(event)" value="2"></td>
+				<td><input type="button" onclick="clickHandler(event)" value="3"></td>
+				<td><input type="button" onclick="clickHandler(event)" value="/"></td>
+			</tr>
+			<tr>
+				<td><input type="button" onclick="clickHandler(event)" value="4"></td>
+				<td><input type="button" onclick="clickHandler(event)" value="5"></td>
+				<td><input type="button" onclick="clickHandler(event)" value="6"></td>
+				<td><input type="button" onclick="clickHandler(event)" value="*"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onclick="clickHandler(event)"></td>
+				<td><input type="button" value="8" onclick="clickHandler(event)"></td>
+				<td><input type="button" value="9" onclick="clickHandler(event)"></td>
+				<td><input type="button" value="-" onclick="clickHandler(event)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="0" onclick="clickHandler(event)"></td>
+				<td><input type="button" value="." onclick="clickHandler(event)"></td>
+				<td><input type="button" value="=" onclick="clickHandler(event)"></td>
+				<td><input type="button" value="+" onclick="clickHandler(event)"></td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
